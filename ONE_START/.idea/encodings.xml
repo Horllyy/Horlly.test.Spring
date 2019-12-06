@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$/../EIGHT_ssm" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../FINAL_ssm" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../FIVE_fileuploadserver" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../SEVEN_interceptor" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../SIX_exception" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../SSM_LetsTryAgain" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Trial01" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../Horlly.test.SpringMVC/FOUR_fileupload" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../Horlly.test.SpringMVC/THREE_response" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../Horlly.test.SpringMVC/TWO_params" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/../FINAL_ssm" />
+    <file type="web" url="file://$PROJECT_DIR$/../FINAL_SSM2" />
+    <file type="web" url="file://$PROJECT_DIR$/../FIVE_fileuploadserver" />
+    <file type="web" url="file://$PROJECT_DIR$" />
+    <file type="web" url="file://$PROJECT_DIR$/../SEVEN_interceptor" />
+    <file type="web" url="file://$PROJECT_DIR$/../SIX_exception" />
+    <file type="web" url="file://$PROJECT_DIR$/../ssm_example" />
+    <file type="web" url="file://$PROJECT_DIR$/../ssm_Example2" />
+    <file type="web" url="file://$PROJECT_DIR$/../SSM_LetsTryAgain" />
+    <file type="web" url="file://$PROJECT_DIR$/../Trial01" />
+    <file type="web" url="file://$PROJECT_DIR$/../../Horlly.test.SpringMVC/FOUR_fileupload" />
+    <file type="web" url="file://$PROJECT_DIR$/../../Horlly.test.SpringMVC/THREE_response" />
+    <file type="web" url="file://$PROJECT_DIR$/../../Horlly.test.SpringMVC/TWO_params" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../../Horlly.test.SpringMVC/TWO_params/pom.xml" />
+        <option value="$PROJECT_DIR$/../FIVE_fileuploadserver/pom.xml" />
+        <option value="$PROJECT_DIR$/../SEVEN_interceptor/pom.xml" />
+        <option value="$PROJECT_DIR$/../Trial01/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/../EIGHT_ssm/pom.xml" />
+        <option value="$PROJECT_DIR$/../FINAL_ssm/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

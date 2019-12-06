@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+
+    <bean id="accountService" class="service.impl.AccountServiceImpl"></bean>
+
+    <bean id="logger" class="utils.logger"></bean>
+
+    <!-- 全通配方法：
+                   * *..*.*(..)
+
+         实际开发通常写法：
+                   * 包名.*.*(..)
+                   如：   * service.impl.*.*(..)
+
+         当然单个指定也可以：
+                 如：   public void service.impl.AccountServiceImpl.saveAccount()
+                                       -->
+
+    <!--<aop:config>标签表明开始AOP的配置-->
+    <aop:config>
+        <!--配置切面-->
+        <aop:aspect id="logAdvice" ref="logger">
+            <!--配置通知的类型，明确切入点方法-->
+            <aop:before method="printLog" pointcut="execution(* service.impl.*.*(..))"></aop:before>
+        </aop:aspect>
+    </aop:config>
+</beans>

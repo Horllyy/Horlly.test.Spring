@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="EIGHT_Proxy" />
+        <module name="FOUR_Bean_Map" />
+        <module name="ONE" />
+        <module name="SEVEN_Copy" />
+        <module name="SIX_XML+Configuration" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="NINE_AOPfromSpring" target="1.5" />
+      <module name="TEN_AOPfromSpring+Configuration" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

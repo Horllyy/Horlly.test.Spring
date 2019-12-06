@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$//AOP+Transaction/AOP+Transaction.iml" filepath="$PROJECT_DIR$//AOP+Transaction/AOP+Transaction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AOPTransactionAround/AOPTransactionAround.iml" filepath="$PROJECT_DIR$/AOPTransactionAround/AOPTransactionAround.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Final_shengming_AllConfiguration/Final_shengming_AllConfiguration.iml" filepath="$PROJECT_DIR$/Final_shengming_AllConfiguration/Final_shengming_AllConfiguration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Final_shengming_Configuration+XML/Final_shengming_Configuration+XML.iml" filepath="$PROJECT_DIR$/Final_shengming_Configuration+XML/Final_shengming_Configuration+XML.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Final_shengming_XML/Final_shengming_XML.iml" filepath="$PROJECT_DIR$/Final_shengming_XML/Final_shengming_XML.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Final_shengming_XML_2/Final_shengming_XML_2.iml" filepath="$PROJECT_DIR$/Final_shengming_XML_2/Final_shengming_XML_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Horlly.test.Spring.iml" filepath="$PROJECT_DIR$/.idea/Horlly.test.Spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JdbcTemplet/JdbcTemplet.iml" filepath="$PROJECT_DIR$/JdbcTemplet/JdbcTemplet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TEN_AOPfromSpringConfiguration/TEN_AOPfromSpringConfiguration.iml" filepath="$PROJECT_DIR$/TEN_AOPfromSpringConfiguration/TEN_AOPfromSpringConfiguration.iml" />
+    </modules>
+  </component>
+</project>

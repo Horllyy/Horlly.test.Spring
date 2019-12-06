@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+ <!--方法1 普通情况-->
+    <!--<bean id="accountService"  class="service.impl.AccountServiceImpl"></bean>-->
+
+<!--方法2  调用另一个类中的get方法来获取此类bean-->
+    <!--<bean id="factoryInstance"  class="factory.FactoryInstance"></bean>-->
+
+    <!--<bean id="accountService"  factory-bean="factoryInstance" factory-method="getAccountService"></bean>-->
+
+<!--方法3 调用另一个类中的静态get方法来获取此类bean-->
+    <bean id="accountService" class="factory.staticFactoryInstance" factory-method="getAccountService"></bean>
+</beans>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.slf4j.impl.StaticLoggerBinder:slf4j-nop:unknown">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/impl/StaticLoggerBinder/slf4j-nop/unknown/slf4j-nop-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/impl/StaticLoggerBinder/slf4j-nop/unknown/slf4j-nop-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/impl/StaticLoggerBinder/slf4j-nop/unknown/slf4j-nop-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

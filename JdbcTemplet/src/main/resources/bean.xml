@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--  普通版本 使用AccountDaoImpl 需要自己定义jdbcTemplate并有set方法 bean可以使用xml定义 也可以直接在类中使用@注释定义
+       即：若在AccountDaoImpl类中直接使用@注释 以下定义可省略
+-->
+<!--<bean id="accountDao" class="Dao.impl.AccountDaoImpl">-->
+    <!--<property name="jdbcTemplate" ref="jdbcTemplate"></property>-->
+<!--</bean>-->
+
+
+    <!--  升级版本 实际使用更多 使用AccountDaoImpl2 jdbcTemplate来自父类 无需自己定义 但此改造使得bean只能在xml文件中定义
+    我们无法去java写好的父类里面使用注释@Autowired 因为父类不可修改
+    -->
+    <bean id="accountDao" class="Dao.impl.AccountDaoImpl2">
+        <property name="jdbcTemplate" ref="jdbcTemplate"></property>
+    </bean>
+
+    <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+        <property name="dataSource" ref="dataSource"></property>
+    </bean>
+    <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"></property>
+        <property name="url" value="jdbc:mysql://localhost:3306/easy"></property>
+        <property name="username" value="root"></property>
+        <property name="password" value="123456"></property>
+    </bean>
+
+</beans>

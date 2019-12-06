@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="user1" class="User">
+        <property name="username">
+            <value>张三</value>
+        </property>
+        <property name="password">
+            <value>123456</value>
+        </property>
+    </bean>
+    <bean id="user2" class="User">
+        <property name="username">
+            <value>李四</value>
+        </property>
+        <property name="password">
+            <value>123123</value>
+        </property>
+    </bean>
+    <bean id="manger" class="Manager">
+        <property name="userMap">
+            <map>
+                <entry key="1" value-ref="user1"></entry>
+                <entry key="2" value-ref="user2"></entry>
+            </map>
+        </property>
+    </bean>
+</beans>

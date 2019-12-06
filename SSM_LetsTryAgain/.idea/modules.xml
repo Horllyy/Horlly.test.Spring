@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SSM_LetsTryAgain.iml" filepath="$PROJECT_DIR$/SSM_LetsTryAgain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../Horlly.test.Graduate/firstmodel/firstmodel.iml" filepath="$PROJECT_DIR$/../../Horlly.test.Graduate/firstmodel/firstmodel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../Horlly.test.Graduate/secondmodel/secondmodel.iml" filepath="$PROJECT_DIR$/../../Horlly.test.Graduate/secondmodel/secondmodel.iml" />
+    </modules>
+  </component>
+</project>

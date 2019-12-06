@@ -1,0 +1,10 @@
+我这个mybatis小白感觉操作数据库很瞎。
+
+之前练习Spring里jdbcTemplate的时候就被主播忽悠了，忘了插入中文试试。这里ssm搞完去试试。
+
+总之：如果数据库中文读取正常，写入却乱码，就大概率是写入的时候没有设定编码格式。
+
+         乱码： <property name="url" value="jdbc:mysql://localhost:3306/ssm"></property>
+
+         正常： <property name="url" value="jdbc:mysql://localhost:3306/ssm?useUnicode=true&amp;characterEncoding=utf8"></property>
+
